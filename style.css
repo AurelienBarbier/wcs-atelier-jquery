@@ -1,0 +1,12 @@
+a{
+	margin:auto 0.5%;
+	/* Si on ne met pas d'attribut href sur un <a>, le curseur ne change pas. */
+	cursor: pointer;
+}
+
+ol li:first-child a.up{
+	display: none;
+}
+ol li:last-child a.down{
+	display: none;
+}

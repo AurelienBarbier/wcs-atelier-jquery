@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery | Write less, do more.</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- CSS perso | Chargee apres celui de bootsrap -->
+	<link rel="stylesheet" href="style.css">
+	<!-- -->
+	<style type="text/css">
+		.panel{
+			margin-top: 40vh;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<form  class="form-inline">
+							<div class="form-group">
+								<!-- Input avec ID pour pouvoir le ciblerD -->
+								<input type="text" class="form-control" id="input_field" name="node">
+							</div>
+							<div class="form-group">
+								<input type="submit" class="form-control" name="add" value="Add">
+							</div>
+						</form>
+						<ol id="target">		
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Recup de JQuery depuis leur CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Chargement du script perso | apres JQuery -->
+	<script type="text/javascript" src="script.js"></script>
+	<!---->
+</body>
+</html>
